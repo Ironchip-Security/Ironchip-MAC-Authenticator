@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logon showcase gif" src="./assets/icon.png" width="100"/>
+  <img alt="Icon Logo" src="./assets/icon.png" width="100"/>
 </p>
 <h1 align="center">Ironchip</h1>
 
@@ -91,3 +91,18 @@ To install the Ironchip Authenticator into your device:
    <p align="center">
      <img alt="Installer first view" src="./assets/first-view.png" width="350"/>
    </p>
+
+### Uninstalling Application
+
+To uninstall the application from your Mac, follow these steps:
+
+1. **Open Terminal**:
+   - You can find Terminal in `Applications > Utilities > Terminal`.
+
+2. **Run the Uninstall Command**:
+   - Type the following command in Terminal and press `Enter`:
+   
+     ```bash
+     sudo ironchip uninstall
+     ```
+   - You will be prompted to enter your administrator password.
