@@ -82,14 +82,18 @@ To install the Ironchip Authenticator into your device:
 
 **Location Permissions:** Make sure to grant location permissions. It serves to enhance the Intrusion Detection System (IDS) and provide more effective alerts regarding SIM card changes, phishing attempts, device switches, and other suspicious or fraudulent actions.
 
+Navigate to System Settings, click on Privacy & Security in the sidebar, and then select Location Services on the right.” 
+System Settings, click Privacy & Security in the sidebar, then click Location Services on the right.
    <p align="center">
-     <img alt="Installer first view" src="./assets/first-view.png" width="350"/>
+     <img alt="Installer first view" src="./assets/enable-location.png" width="350"/>
    </p>
    
 **Notifications:** Enable notifications to receive important alerts.
 
+To change these settings, choose Apple menu > System Settings, then click Notifications in the sidebar.
+
    <p align="center">
-     <img alt="Installer first view" src="./assets/first-view.png" width="350"/>
+     <img alt="Installer first view" src="./assets/enable-notifications.png" width="350"/>
    </p>
 
 ### Uninstalling Application
