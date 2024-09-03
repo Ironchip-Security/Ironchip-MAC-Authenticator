@@ -96,6 +96,15 @@ To change these settings, choose Apple menu > System Settings, then click Notifi
      <img alt="Installer first view" src="./assets/enable-notifications.png" width="350"/>
    </p>
 
+### Installing Application via command line
+
+To install a .pkg file on macOS from the command line, follow these steps:
+
+ ```bash
+curl -L -o /tmp/package.pkg https://github.com/Ironchip-Security/Ironchip-MAC-Authenticator/releases/download/1.0.0/ironchip_authenticator_1.0.0_arm64.pkg && sudo installer -pkg /tmp/package.pkg -target /
+ ```
+Make sure that the URL corresponds with to a valid version of the package.
+
 ### Uninstalling Application
 
 To uninstall the application from your Mac, follow these steps:
