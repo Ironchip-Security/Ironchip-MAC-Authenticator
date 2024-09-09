@@ -119,3 +119,25 @@ To uninstall the application from your Mac, follow these steps:
      sudo ironchip uninstall
      ```
    - You will be prompted to enter your administrator password.
+
+### How to disable USB
+  
+  1. **Open Terminal**:
+   - You can find Terminal in `Applications > Utilities > Terminal`.
+
+  2. **Run the Command**:
+   - Type the following command in Terminal and press `Enter`:
+   
+     ```bash
+     sudo ironchip configure --restrict-usb=true
+     ```
+   - You will be prompted to enter your administrator password.
+
+### Help section
+  If you need more information about the available options for the command, you can access the help menu by using the -h or --help option.
+```bash
+sudo ironchip configure -h
+```
+```bash
+sudo ironchip service -h
+```
