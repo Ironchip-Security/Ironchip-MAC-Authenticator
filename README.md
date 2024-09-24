@@ -133,6 +133,24 @@ To uninstall the application from your Mac, follow these steps:
      ```
    - You will be prompted to enter your administrator password.
 
+### How to enable proxy
+  Automatic Proxy: If you enable this option, the application will use the proxy configured in the system.
+  
+  1. **Open Terminal**:
+   - You can find Terminal in `Applications > Utilities > Terminal`.
+
+  2. **Run the Command**:
+   - Type the following command in Terminal and press `Enter`:
+   
+     ```bash
+       sudo ironchip configure --proxy-enable=true
+     ```
+     Manual Proxy: If you prefer to configure the proxy manually, the application will take the proxy details from the config.json file.
+
+    ```bash
+      sudo ironchip configure --proxy-manual=true --proxy-manual-uri 127.0.0.1:8080
+     ```
+
 ### Help section
   If you need more information about the available options for the command, you can access the help menu by using the -h or --help option.
 ```bash
