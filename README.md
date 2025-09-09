@@ -80,6 +80,18 @@ To install the Ironchip Authenticator into your device:
    
 ### Additional information to ensure optimal use of the application
 
+**Full Disk Access for USB functionality:**  
+After installing the `.pkg`, macOS will open the **Full Disk Access** settings window automatically.  
+
+1. Click on the **“+”** button.  
+2. Navigate to `Applications/IronchipService`.  
+3. Select **IronchipService** and confirm.  
+
+This step is essential to ensure proper USB detection and overall service functionality.
+  <p align="center">
+     <img alt="IronchipService permissions" src="./assets/enable-ironchip-service.png" width="350"/>
+   </p>
+
 **Location Permissions:** Make sure to grant location permissions. It serves to enhance the Intrusion Detection System (IDS) and provide more effective alerts regarding SIM card changes, phishing attempts, device switches, and other suspicious or fraudulent actions.
 
 Navigate to System Settings, click on Privacy & Security in the sidebar, and then select Location Services on the right.” 
